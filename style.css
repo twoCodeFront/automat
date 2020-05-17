@@ -1,0 +1,112 @@
+body{
+    -webkit-animation: color-change-5x 30s linear infinite alternate both;
+	        animation: color-change-5x 30s linear infinite alternate both;
+}
+@-webkit-keyframes color-change-5x {
+    0% {
+      background: #19dcea;
+    }
+    25% {
+      background: #b22cff;
+    }
+    50% {
+      background: #ea2222;
+    }
+    75% {
+      background: #f5be10;
+    }
+    100% {
+      background: #3bd80d;
+    }
+  }
+  @keyframes color-change-5x {
+    0% {
+      background: #19dcea;
+    }
+    25% {
+      background: #b22cff;
+    }
+    50% {
+      background: #ea2222;
+    }
+    75% {
+      background: #f5be10;
+    }
+    100% {
+      background: #3bd80d;
+    }
+  }
+  
+.bodyElement{
+    display: flex;
+    width: 700px;
+    height: 300px;
+    border: 1px solid black;
+    margin-left: 20%;
+    margin-top:50px;
+    background-color: white;
+}
+
+.play{
+    padding: 20px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-left: 45%;
+    margin-top:5px;
+}
+
+.element{
+    width: 33.3%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.d-none{
+    display: none;
+}
+
+.element span{
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 76px;
+}
+
+.win{
+    color:red;
+    font-weight: 700;
+}
+.styles{
+    font-weight: 700;
+    color:blue;
+}
+
+#valuePerGame{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-left: none;
+    border-top:none;
+    border-left:none;
+    border-bottom: 2px solid blue;
+    width: 200px;
+}
+::placeholder {
+    color: red;
+    font-size: 18px;;
+  }
+
+.cont{
+    border:1px solid black;
+    border-radius: 5px;
+    width: 400px;
+    padding:30px;
+    margin-top:20px;
+    display: block;
+    margin-left: 20%;
+    background-color: white;
+
+
+}
